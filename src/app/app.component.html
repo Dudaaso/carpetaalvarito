@@ -1,0 +1,36 @@
+<div class="container">
+  <nav class="navigation">
+    <a routerLink="/" routerLinkActive="active">Home</a>
+    <a routerLink="/powerbi" routerLinkActive="active">
+      <i class="fa fa-line-chart"></i> Dashboard de PwBI
+    </a>
+    <a routerLink="/tableau" routerLinkActive="active">
+      <i class="fa fa-bar-chart"></i> Tableau
+    </a>
+    <a routerLink="/datastudio" routerLinkActive="active">
+      <i class="fa fa-chart-pie"></i> Datastudio
+    </a>
+  </nav>
+
+  <router-outlet></router-outlet>
+
+  <div class="home-content" *ngIf="isHomePage()">
+    <h2 class="home-title">Anteproyecto</h2>
+    <p class="home-text image-text ">El proyecto realizado por Lucia, Alfonso y Eduardo</p>
+    <img src= "assets/europea.jpg" alt="universida europea"  class="home-text">
+  
+  
+  </div>
+  
+  <footer class="footer">
+    <p>Derechos de autor © 2023 - Todos los derechos reservados @dudaaso</p>
+  </footer>
+</div>
+
+
+
+
+
+
+
+

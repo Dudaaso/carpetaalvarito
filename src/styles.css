@@ -1,0 +1,130 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 10px;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.navigation a:hover {
+  color: yellow;
+}
+
+.navigation .icon {
+  margin-right: 5px;
+}
+
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.navigation a:hover {
+  color: yellow;
+}
+
+.navigation .icon {
+  margin-right: 5px;
+}
+body {
+  background-color: greenyellow !important ;
+  color: red
+
+}
+/* Agrega al final del archivo */
+
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.container {
+  margin-bottom: 40px; /* Ajusta el valor según sea necesario para dar espacio al footer */
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+}
+
+.navigation {
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+.navigation a.active {
+  font-weight: bold;
+}
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.home-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.home-text {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+
+  

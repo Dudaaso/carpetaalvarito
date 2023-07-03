@@ -1,0 +1,7 @@
+.tableau-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta esta altura según tus necesidades */
+  }
+  
